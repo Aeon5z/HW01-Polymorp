@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AF1F5A4F1F784E8200F29BA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1F5A4E1F784E8200F29BA7 /* main.m */; };
+		AF1F5A571F784EC800F29BA7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1F5A561F784EC800F29BA7 /* Person.m */; };
+		AF1F5A5A1F784F6D00F29BA7 /* MDCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1F5A591F784F6D00F29BA7 /* MDCPerson.m */; };
+		AF1F5A5D1F784FAD00F29BA7 /* MDCProfessor.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1F5A5C1F784FAD00F29BA7 /* MDCProfessor.m */; };
+		AF1F5A601F784FCC00F29BA7 /* MDCStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1F5A5F1F784FCC00F29BA7 /* MDCStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		AF1F5A4B1F784E8200F29BA7 /* HW01-Polymorp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW01-Polymorp"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF1F5A4E1F784E8200F29BA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF1F5A551F784EC800F29BA7 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AF1F5A561F784EC800F29BA7 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AF1F5A581F784F6D00F29BA7 /* MDCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCPerson.h; sourceTree = "<group>"; };
+		AF1F5A591F784F6D00F29BA7 /* MDCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCPerson.m; sourceTree = "<group>"; };
+		AF1F5A5B1F784FAD00F29BA7 /* MDCProfessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCProfessor.h; sourceTree = "<group>"; };
+		AF1F5A5C1F784FAD00F29BA7 /* MDCProfessor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCProfessor.m; sourceTree = "<group>"; };
+		AF1F5A5E1F784FCC00F29BA7 /* MDCStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCStudent.h; sourceTree = "<group>"; };
+		AF1F5A5F1F784FCC00F29BA7 /* MDCStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,14 @@
 		AF1F5A421F784E8200F29BA7 = {
 			isa = PBXGroup;
 			children = (
+				AF1F5A5E1F784FCC00F29BA7 /* MDCStudent.h */,
+				AF1F5A5F1F784FCC00F29BA7 /* MDCStudent.m */,
+				AF1F5A5B1F784FAD00F29BA7 /* MDCProfessor.h */,
+				AF1F5A5C1F784FAD00F29BA7 /* MDCProfessor.m */,
+				AF1F5A581F784F6D00F29BA7 /* MDCPerson.h */,
+				AF1F5A591F784F6D00F29BA7 /* MDCPerson.m */,
+				AF1F5A551F784EC800F29BA7 /* Person.h */,
+				AF1F5A561F784EC800F29BA7 /* Person.m */,
 				AF1F5A4D1F784E8200F29BA7 /* HW01-Polymorp */,
 				AF1F5A4C1F784E8200F29BA7 /* Products */,
 			);
@@ -119,6 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1F5A601F784FCC00F29BA7 /* MDCStudent.m in Sources */,
+				AF1F5A5D1F784FAD00F29BA7 /* MDCProfessor.m in Sources */,
+				AF1F5A5A1F784F6D00F29BA7 /* MDCPerson.m in Sources */,
+				AF1F5A571F784EC800F29BA7 /* Person.m in Sources */,
 				AF1F5A4F1F784E8200F29BA7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
